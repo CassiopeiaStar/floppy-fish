@@ -22,7 +22,7 @@ fn main() {
         .insert_resource(WindowDescriptor {
             width: 700.,
             height: 500.,
-            resizable: false,
+            //resizable: false,
             ..Default::default()
         })
         .add_plugins(DefaultPlugins)
